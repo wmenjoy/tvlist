@@ -33,7 +33,25 @@ http://192.168.10.1:23234/rtp/239.3.1.15:8052
 http://192.168.10.1:23234/rtp/239.3.1.150:8064
 #EXTINF:-1 ,CCTV-17高清
 http://192.168.10.1:23234/rtp/239.3.1.151:8144
-#EXTINF:-1 ,BTV北京卫视高清
+
+#EXTINF:-1 group-title="卫视",凤凰中文
+http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225942/1.m3u8
+#EXTINF:-1 group-title="卫视",凤凰中文
+http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221225948/1.m3u8
+#EXTINF:-1 group-title="卫视",凤凰资讯
+http://117.169.120.138:8080/live/fhzixun/.m3u8
+#EXTINF:-1 ,爱上4K
+http://192.168.10.1:23234/rtp/239.3.1.236:2000
+#EXTINF:-1 ,4K超清
+http://192.168.10.1:23234/rtp/239.3.1.249:8001
+#EXTINF:-1 ,香港开电视 / HKSTV-HKS (720p)
+http://media.fantv.hk/m3u8/archive/channel2.m3u8
+#EXTINF:-1 group-title="卫视", RTHK (港台電視31) (1080p)
+https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
+#EXTINF:-1 tvg-id=CNN, CNN
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 ,北京卫视高清
 http://192.168.10.1:23234/rtp/239.3.1.241:8000
 #EXTINF:-1 ,湖南卫视高清
 http://192.168.10.1:23234/rtp/239.3.1.132:8012
@@ -101,8 +119,6 @@ http://192.168.10.1:23234/rtp/239.3.1.26:8108
 http://192.168.10.1:23234/rtp/239.3.1.143:4120
 #EXTINF:-1 ,兵团卫视
 http://192.168.10.1:23234/rtp/239.3.1.144:4120
-#EXTINF:-1 ,4K超清
-http://192.168.10.1:23234/rtp/239.3.1.249:8001
 #EXTINF:-1 ,武侠剧场
 http://192.168.10.1:23234/rtp/239.3.1.90:4120
 #EXTINF:-1 ,喜剧影院
@@ -113,8 +129,6 @@ http://192.168.10.1:23234/rtp/239.3.1.92:4120
 http://192.168.10.1:23234/rtp/239.3.1.93:4120
 #EXTINF:-1 ,星影
 http://192.168.10.1:23234/rtp/239.3.1.94:4120
-#EXTINF:-1 ,爱上4K
-http://192.168.10.1:23234/rtp/239.3.1.236:2000
 #EXTINF:-1 ,BTV文艺高清
 http://192.168.10.1:23234/rtp/239.3.1.242:8000
 #EXTINF:-1 ,BTV体育高清
