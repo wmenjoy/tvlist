@@ -7,10 +7,10 @@ http://192.168.10.1:23234/rtp/239.3.1.60:8084
 http://192.168.10.1:23234/rtp/239.3.1.172:8001
 #EXTINF:-1 ,CCTV-4高清
 http://192.168.10.1:23234/rtp/239.3.1.105:8092
-#EXTINF:-1 tvg-name="该频道节目单尚无",CCTV-4 欧洲[高清]
-http://192.168.10.1:23234/rtp/239.3.1.213:4220
-#EXTINF:-1 tvg-name="该频道节目单尚无",CCTV-4 美洲[高清]
-http://192.168.10.1:23234/rtp/239.3.1.214:4220
+# #EXTINF:-1 ,CCTV-4 欧洲[高清]
+# http://192.168.10.1:23234/rtp/239.3.1.213:4220
+# #EXTINF:-1 ,CCTV-4 美洲[高清]
+# http://192.168.10.1:23234/rtp/239.3.1.214:4220
 #EXTINF:-1 ,CCTV-5高清
 http://192.168.10.1:23234/rtp/239.3.1.173:8001
 #EXTINF:-1 ,CCTV5+高清
@@ -33,8 +33,16 @@ http://192.168.10.1:23234/rtp/239.3.1.124:8128
 http://192.168.10.1:23234/rtp/239.3.1.65:8132
 #EXTINF:-1 ,CCTV-15高清
 http://192.168.10.1:23234/rtp/239.3.1.15:8052
-#EXTINF:-1 ,CCTV-16
-http://cctvalih5ca.v.myalicdn.com/live/cctv16_2/index.m3u8
+# #EXTINF:-1 ,CCTV-16高清
+# http://192.168.10.1:23234/rtp/239.3.1.97:8001
+# #EXTINF:-1 ,CCTV-16高清
+# https://live.olympicchannelchina.cn/aoyun/cctv16_1hd.m3u8
+# #EXTINF:-1 ,CCTV-16高清
+# http://121.18.168.210/livetestcdn.cctv.cn/hls/CCTV16HD/playlist.m3u8
+# #EXTINF:-1 ,CCTV-16高清
+# http://192.168.10.1:23234/rtp/239.3.1.183:8001
+#EXTINF:-1 ,CCTV-16高清
+http://192.168.10.1:23234/rtp/239.3.1.184:8001
 #EXTINF:-1 ,CCTV-17高清
 http://192.168.10.1:23234/rtp/239.3.1.151:8144
 
